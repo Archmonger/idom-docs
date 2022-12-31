@@ -90,6 +90,7 @@ nav:
 
 theme:
     name: material
+    custom_dir: docs/overrides
     palette:
         - media: "(prefers-color-scheme: dark)"
           scheme: slate
@@ -129,6 +130,7 @@ markdown_extensions:
 
 plugins:
     - search
+    - git-authors
     - include-markdown
     - git-revision-date-localized:
           fallback_to_build_date: true
