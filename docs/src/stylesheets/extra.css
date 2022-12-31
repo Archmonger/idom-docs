@@ -1,5 +1,5 @@
 /* Hide useless footer */
-.md-footer__inner {
+.md-footer__inner:not([hidden]) {
 	display: none;
 }
 
