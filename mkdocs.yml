@@ -132,6 +132,11 @@ plugins:
     - search
     - git-authors
     - include-markdown
+    - minify:
+          minify_html: true
+          minify_js: true
+          minify_css: true
+          cache_safe: true
     - git-revision-date-localized:
           fallback_to_build_date: true
     - spellcheck:
