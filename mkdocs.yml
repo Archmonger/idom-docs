@@ -1,0 +1,160 @@
+---
+nav:
+    - Home: index.md
+    - Get Started:
+          - Installation:
+                - Start a New Project: temp1.md
+                - Add IDOM to a Website: temp.md
+                - Editor Setup: temp.md
+                - Developer Tools: temp.md
+          - Quick Start:
+                - "Tutorial: Tic-Tac-Toe": temp.md
+                - Thinking in IDOM: temp.md
+    - Learn IDOM:
+          - Describing the UI:
+                - Your First Component: temp2.md
+                - Importing and Exporting Components: temp.md
+                - Writing Markup with Python: temp.md
+                - Passing Args to a Component: temp.md
+                - Conditional Rendering: temp.md
+                - Rendering Lists: temp.md
+                - Keeping Components Pure: temp.md
+          - Adding Interactivity:
+                - Responding to Events: temp.md
+                - "State: A Component's Memory": temp.md
+                - Render and Commit: temp.md
+                - State as a Snapshot: temp.md
+                - Queueing a Series of State Updates: temp.md
+                - Updating Objects in State: temp.md
+                - Updating Arrays in State: temp.md
+          - Managing State:
+                - Reacting to Input with State: temp.md
+                - Choosing the State Structure: temp.md
+                - Sharing State Between Components: temp.md
+                - Preserving and Resetting State: temp.md
+                - Extracting State Logic into a Reducer: temp.md
+                - Passing Data Deeply with Context: temp.md
+                - Scaling Up with Reducer and Context: temp.md
+          - Escape Hatches:
+                - You Might Noot Need an Effect: temp.md
+                - Changing Effect Dependencies: temp.md
+                - Javascript Components:
+                      - Import Module from a File: temp.md
+                      - Import Module from a URL: temp.md
+                      - Communicate to the Server: temp.md
+                - HTML String Conversions:
+                      - VDOM to HTML: temp.md
+                      - HTML to VDOM: temp.md
+                      - Remove HTML and Body Tags from VDOM: temp.md
+                      - Manipulating VDOM: temp.md
+                      - Creating Event Handlers: temp.md
+                - Custom HTML Tags: temp.md
+                - Custom Hooks: temp.md
+                - Custom Backends: temp.md
+                - Custom Clients: temp.md
+    - Reference:
+          - HTML:
+                - Common Types: temp3.md
+                - Standard DOM Args: temp.md
+                - Supported Events: temp.md
+                - Usage: temp.md
+          - Hooks:
+                - Use State: temp.md
+                - Use Effect: temp.md
+                - Use Context: temp.md
+                - Use Reducer: temp.md
+                - Use Callback: temp.md
+                - Use Memo: temp.md
+                - Use Ref: temp.md
+                - Use Debug Value: temp.md
+          - Backends:
+                - FastAPI: temp.md
+                - Flask: temp.md
+                - Sanic: temp.md
+                - Starlette: temp.md
+                - Tornado: temp.md
+                - Externally Supported:
+                      - Django: temp.md
+                      - Jupyter: temp.md
+                      - Plotly: temp.md
+          - Protocol Structure: temp.md
+          - Client APIs: temp.md
+          - Server APIs: temp.md
+    - About IDOM:
+          - Community: temp4.md
+          - Contribute:
+                - Code: temp.md
+                - Docs: temp.md
+                - Running Tests: temp.md
+          - Changelog: changelog/index.md
+
+theme:
+    name: material
+    palette:
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+              icon: material/white-balance-sunny
+              name: Switch to light mode
+          primary: deep-orange
+          accent: orange
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+              icon: material/weather-night
+              name: Switch to dark mode
+          primary: black
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.top
+    icon:
+        repo: fontawesome/brands/github
+
+markdown_extensions:
+    - toc:
+          permalink: true
+    - pymdownx.emoji:
+          emoji_index: !!python/name:materialx.emoji.twemoji
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.highlight:
+          linenums: true
+    - pymdownx.superfences
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - admonition
+    - attr_list
+
+plugins:
+    - search
+    - include-markdown
+    # - git-revision-date-localized:
+    #       fallback_to_build_date: true
+    - spellcheck:
+          known_words: dictionary.txt
+          allow_unicode: no
+          ignore_code: yes
+
+extra:
+    generator: false
+
+extra_css:
+    - stylesheets/extra.css
+
+watch:
+    - docs
+    - mkdocs.yml
+    - README.md
+    - CHANGELOG.md
+
+site_name: IDOM Docs
+site_author: Archmonger
+site_description: React for Python developers.
+copyright: Copyright &copy; 2023 IDOM Team
+repo_url: https://github.com/idom-team/idom
+site_url: https://idom-team.github.io/idom
+repo_name: idom-team/idom
+edit_uri: edit/main/docs/src
+docs_dir: docs/src
