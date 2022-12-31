@@ -147,3 +147,12 @@ body[data-md-color-scheme="slate"]
 		border-radius: 4px;
 	}
 }
+
+/* Page background color */
+[data-md-color-scheme="slate"] {
+	--md-hue: 220;
+	--md-default-bg-color: hsla(var(--md-hue), 15%, 16%, 1);
+	--md-default-bg-color--light: hsla(var(--md-hue), 15%, 16%, 0.54);
+	--md-default-bg-color--lighter: hsla(var(--md-hue), 15%, 16%, 0.26);
+	--md-default-bg-color--lightest: hsla(var(--md-hue), 15%, 16%, 0.07);
+}
