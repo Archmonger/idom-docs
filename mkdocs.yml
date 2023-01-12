@@ -9,6 +9,7 @@ nav:
                 - Developer Tools: temp.md
           - Quick Start:
                 - "Tutorial: Tic-Tac-Toe": temp.md
+                - "Tutorial: React Bootstrap": temp.md
                 - Thinking in IDOM: temp.md
     - Learn IDOM:
           - Describing the UI:
@@ -36,17 +37,20 @@ nav:
                 - Passing Data Deeply with Context: temp.md
                 - Scaling Up with Reducer and Context: temp.md
           - Escape Hatches:
-                - You Might Noot Need an Effect: temp.md
-                - Changing Effect Dependencies: temp.md
+                - Referencing Values with Refs: temp.md
+                - Manipulating the DOM with Refs: temp.md
+                - Synchronizing with Effects: temp.md
+                - You Might Not Need an Effect: temp.md
+                - Lifecycle of Reactive Effects: temp.md
+                - Separating Events from Effects: temp.md
+                - Removing Effect Dependencies: temp.md
                 - Javascript Components:
                       - Import Module from a File: temp.md
                       - Import Module from a URL: temp.md
                       - Communicate to the Server: temp.md
                 - HTML String Conversions:
-                      - VDOM to HTML: temp.md
-                      - HTML to VDOM: temp.md
-                      - Remove HTML and Body Tags from VDOM: temp.md
-                      - Manipulating VDOM: temp.md
+                      - Convert between VDOM and HTML: temp.md
+                      - VDOM Mutations: temp.md
                       - Creating Event Handlers: temp.md
                 - Custom HTML Tags: temp.md
                 - Custom Hooks: temp.md
@@ -59,27 +63,31 @@ nav:
                 - Supported Events: temp.md
                 - Usage: temp.md
           - Hooks:
-                - Use State: temp.md
-                - Use Effect: temp.md
-                - Use Context: temp.md
-                - Use Reducer: temp.md
-                - Use Callback: temp.md
-                - Use Memo: temp.md
-                - Use Ref: temp.md
-                - Use Debug Value: temp.md
+                - Basic:
+                      - Use State: temp.md
+                      - Use Effect: temp.md
+                      - Use Context: temp.md
+                - Advanced:
+                      - Use Reducer: temp.md
+                      - Use Callback: temp.md
+                      - Use Memo: temp.md
+                      - Use Ref: temp.md
+                      - Use Debug Value: temp.md
+                - Backend Specific:
+                      - Use Connection: temp.md
+                      - Use Scope: temp.md
+                      - Use Location: temp.md
           - Backends:
                 - FastAPI: temp.md
                 - Flask: temp.md
                 - Sanic: temp.md
                 - Starlette: temp.md
                 - Tornado: temp.md
-                - Externally Supported:
-                      - Django: temp.md
-                      - Jupyter: temp.md
-                      - Plotly: temp.md
+                - Django: temp.md
+                - Jupyter: temp.md
+                - Plotly Dash: temp.md
           - Protocol Structure: temp.md
-          - Client APIs: temp.md
-          - Server APIs: temp.md
+          - Client API: temp.md
     - About IDOM:
           - Community: temp4.md
           - Contribute:
