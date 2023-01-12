@@ -3,98 +3,98 @@ nav:
     - Home: index.md
     - Get Started:
           - Installation:
-                - Start a New Project: temp1.md
-                - Add IDOM to a Website: temp.md
-                - Editor Setup: temp.md
-                - Developer Tools: temp.md
+                - Start a New Project: start/start-a-new-project.md
+                - Add IDOM to a Website: start/add-idom-to-a-website.md
+                - Editor Setup: start/editor-setup.md
+                - Developer Tools: start/developer-tools.md
           - Quick Start:
-                - "Tutorial: Tic-Tac-Toe": temp.md
-                - "Tutorial: React Bootstrap": temp.md
-                - Thinking in IDOM: temp.md
+                - "Tutorial: Tic-Tac-Toe": start/tutorial-tic-tac-toe.md
+                - "Tutorial: React Bootstrap": start/tutorial-react-bootstrap.md
+                - Thinking in IDOM: start/thinking-in-idom.md
     - Learn IDOM:
           - Describing the UI:
-                - Your First Component: temp2.md
-                - Importing and Exporting Components: temp.md
-                - Writing Markup with Python: temp.md
-                - Passing Args to a Component: temp.md
-                - Conditional Rendering: temp.md
-                - Rendering Lists: temp.md
-                - Keeping Components Pure: temp.md
+                - Your First Component: learn/your-first-component.md
+                - Importing and Exporting Components: learn/importing-and-exporting-components.md
+                - Writing Markup with Python: learn/writing-markup-with-python.md
+                - Passing Args to a Component: learn/passing-args-to-a-component.md
+                - Conditional Rendering: learn/conditional-rendering.md
+                - Rendering Lists: learn/rendering-lists.md
+                - Keeping Components Pure: learn/keeping-components-pure.md
           - Adding Interactivity:
-                - Responding to Events: temp.md
-                - "State: A Component's Memory": temp.md
-                - Render and Commit: temp.md
-                - State as a Snapshot: temp.md
-                - Queueing a Series of State Updates: temp.md
-                - Updating Objects in State: temp.md
-                - Updating Arrays in State: temp.md
+                - Responding to Events: learn/responding-to-events.md
+                - "State: A Component's Memory": learn/state-a-components-memory.md
+                - Render and Commit: learn/render-and-commit.md
+                - State as a Snapshot: learn/state-as-a-snapshot.md
+                - Queueing a Series of State Updates: learn/queueing-a-series-of-state-updates.md
+                - Updating Objects in State: learn/updating-objects-in-state.md
+                - Updating Arrays in State: learn/updating-arrays-in-state.md
           - Managing State:
-                - Reacting to Input with State: temp.md
-                - Choosing the State Structure: temp.md
-                - Sharing State Between Components: temp.md
-                - Preserving and Resetting State: temp.md
-                - Extracting State Logic into a Reducer: temp.md
-                - Passing Data Deeply with Context: temp.md
-                - Scaling Up with Reducer and Context: temp.md
+                - Reacting to Input with State: learn/reacting-to-input-with-state.md
+                - Choosing the State Structure: learn/choosing-the-state-structure.md
+                - Sharing State Between Components: learn/sharing-state-between-components.md
+                - Preserving and Resetting State: learn/preserving-and-resetting-state.md
+                - Extracting State Logic into a Reducer: learn/extracting-state-logic-into-a-reducer.md
+                - Passing Data Deeply with Context: learn/passing-data-deeply-with-context.md
+                - Scaling Up with Reducer and Context: learn/scaling-up-with-reducer-and-context.md
           - Escape Hatches:
-                - Referencing Values with Refs: temp.md
-                - Manipulating the DOM with Refs: temp.md
-                - Synchronizing with Effects: temp.md
-                - You Might Not Need an Effect: temp.md
-                - Lifecycle of Reactive Effects: temp.md
-                - Separating Events from Effects: temp.md
-                - Removing Effect Dependencies: temp.md
+                - Referencing Values with Refs: learn/referencing-values-with-refs.md
+                - Manipulating the DOM with Refs: learn/manipulating-the-dom-with-refs.md
+                - Synchronizing with Effects: learn/synchronizing-with-effects.md
+                - You Might Not Need an Effect: learn/you-might-not-need-an-effect.md
+                - Lifecycle of Reactive Effects: learn/lifecycle-of-reactive-effects.md
+                - Separating Events from Effects: learn/separating-events-from-effects.md
+                - Removing Effect Dependencies: learn/removing-effect-dependencies.md
                 - Javascript Components:
-                      - Import Module from a File: temp.md
-                      - Import Module from a URL: temp.md
-                      - Communicate to the Server: temp.md
+                      - Import Module from a File: learn/import-module-from-a-file.md
+                      - Import Module from a URL: learn/import-module-from-a-url.md
+                      - Communicate to the Server: learn/communicate-to-the-server.md
                 - HTML String Conversions:
-                      - Convert between VDOM and HTML: temp.md
-                      - VDOM Mutations: temp.md
-                      - Creating Event Handlers: temp.md
-                - Custom HTML Tags: temp.md
-                - Custom Hooks: temp.md
-                - Custom Backends: temp.md
-                - Custom Clients: temp.md
+                      - Convert between VDOM and HTML: learn/convert-between-vdom-and-html.md
+                      - VDOM Mutations: learn/vdom-mutations.md
+                      - Creating Event Handlers: learn/creating-event-handlers.md
+                - Custom HTML Tags: learn/custom-html-tags.md
+                - Custom Hooks: learn/custom-hooks.md
+                - Custom Backends: learn/custom-backends.md
+                - Custom Clients: learn/custom-clients.md
     - Reference:
           - HTML:
-                - Common Types: temp3.md
-                - Standard DOM Args: temp.md
-                - Supported Events: temp.md
-                - Usage: temp.md
+                - Common Types: reference/common-types.md
+                - Standard DOM Args: reference/standard-dom-args.md
+                - Supported Events: reference/supported-events.md
+                - Usage: reference/usage.md
           - Hooks:
                 - Basic:
-                      - Use State: temp.md
-                      - Use Effect: temp.md
-                      - Use Context: temp.md
+                      - Use State: reference/use-state.md
+                      - Use Effect: reference/use-effect.md
+                      - Use Context: reference/use-context.md
                 - Advanced:
-                      - Use Reducer: temp.md
-                      - Use Callback: temp.md
-                      - Use Memo: temp.md
-                      - Use Ref: temp.md
-                      - Use Debug Value: temp.md
+                      - Use Reducer: reference/use-reducer.md
+                      - Use Callback: reference/use-callback.md
+                      - Use Memo: reference/use-memo.md
+                      - Use Ref: reference/use-ref.md
+                      - Use Debug Value: reference/use-debug-value.md
                 - Backend Specific:
-                      - Use Connection: temp.md
-                      - Use Scope: temp.md
-                      - Use Location: temp.md
+                      - Use Connection: reference/use-connection.md
+                      - Use Scope: reference/use-scope.md
+                      - Use Location: reference/use-location.md
           - Backends:
-                - FastAPI: temp.md
-                - Flask: temp.md
-                - Sanic: temp.md
-                - Starlette: temp.md
-                - Tornado: temp.md
-                - Django: temp.md
-                - Jupyter: temp.md
-                - Plotly Dash: temp.md
-          - Protocol Structure: temp.md
-          - Client API: temp.md
+                - FastAPI: reference/fastapi.md
+                - Flask: reference/flask.md
+                - Sanic: reference/sanic.md
+                - Starlette: reference/starlette.md
+                - Tornado: reference/tornado.md
+                - Django: reference/django.md
+                - Jupyter: reference/jupyter.md
+                - Plotly Dash: reference/plotly-dash.md
+          - Protocol Structure: reference/protocol-structure.md
+          - Client API: reference/client-api.md
     - About IDOM:
-          - Community: temp4.md
+          - Community: about/community.md
           - Contribute:
-                - Code: temp.md
-                - Docs: temp.md
-                - Running Tests: temp.md
-          - Changelog: changelog/index.md
+                - Code: about/code.md
+                - Docs: about/docs.md
+                - Running Tests: about/running-tests.md
+          - Changelog: about/changelog.md
 
 theme:
     name: material
